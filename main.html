@@ -1,34 +1,43 @@
 <!DOCTYPE html>
+<!--This can be reused for the following years I just have to change the date LOL-->
 <html>
-<meta charset="utf-8">
-<meta charset="en">
-
 <head>
+    <meta charset="utf-8">
+    <meta charset="en">
     <title> Padoru Timer </title>
+    <meta name="description" content="some weeb made a timer">
+    <meta name="viewport" content="initial-scale=1.0">
     <script src="stuff/coding/fgo/padoru.js"></script>
-    <link rel="stylesheet" href="fgo/design.scss">
+    <link rel="stylesheet" href="fgo/design.scss" type="text/css">
+    <a href="https://github.com/yohamaruki/padoruchristmas/blob/master/padoru.js"></a>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmEnecbdZfdhRLdPQfZIRTdrSasn_t8KTZ0nuww1P8Rid4fOtM"
+        style="width:100%;height:auto;" alt="zerochan.net">
 </head>
-
+<!--I need to fix this part lmao some other time before December reaches it's end.-->
 <body>
-    <h1> Wait.. it's not Christmas yet.. </n>
-        But whatever ^~^ </h1>
-    <h2>Nero Claudius wishes you well</h2>
-    <script>
-        var today = new Date();
-        var BigDay = new Date("December 25, 2019");
-        var msPerDay = 24 * 60 * 60 * 1000;
-        var timeLeft = (BigDay.getTime() - today.getTime());
-        var e_daysLeft = timeLeft / msPerDay;
-        var daysLeft = Math.floor(e_daysLeft);
-        var yearsLeft = 0;
-        if (daysLeft > 365) {
-            yearsLeft = Math.floor(daysLeft / 365);
-            daysLeft = daysLeft % 365;
-        }
-        var e_hrsLeft = (e_daysLeft - daysLeft) * 24;
-        var hrsLeft = Math.floor(e_hrsLeft);
-        var minsLeft = Math.floor((e_hrsLeft - hrsLeft) * 60);
-        document.write(yearsLeft + " years " + daysLeft + " days " + hrsLeft + " hours " + minsLeft + " minutes");
-    </script>
-
+    <div>
+        <h1> Wait.. it's not Christmas yet.. </n>
+            But whatever ^~^ </h1>
+        <h2>Nero Claudius wishes you well</h2>
+    </div>
+        <script>
+            var today = new Date();
+            var BigDay = new Date("December 25, 2019");
+            var msPerDay = 24 * 60 * 60 * 1000;
+            var timeLeft = (BigDay.getTime() - today.getTime());
+            var e_daysLeft = timeLeft / msPerDay;
+            var daysLeft = Math.floor(e_daysLeft);
+            var yearsLeft = 0;
+            if (daysLeft > 365) {
+                yearsLeft = Math.floor(daysLeft / 365);
+                daysLeft = daysLeft % 365;
+            }
+            var e_hrsLeft = (e_daysLeft - daysLeft) * 24;
+            var hrsLeft = Math.floor(e_hrsLeft);
+            var minsLeft = Math.floor((e_hrsLeft - hrsLeft) * 60);
+            document.write(yearsLeft + " years " + daysLeft + " days " + hrsLeft + " hours " + minsLeft + " minutes");
+        </script>
+<div> 
+<p></p>
+</div>
 </body>
