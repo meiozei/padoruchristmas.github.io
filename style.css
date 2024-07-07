@@ -15,8 +15,6 @@ html {
 .countdown-timer {
     animation: fadeIn 2s ease-in-out;
     align-items: center;
-    background-color: #131a2b;
-    border-radius: 0px;
     color: #fff;
     font-size: 15px;
     font-weight: 600;
