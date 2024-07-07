@@ -1,0 +1,24 @@
+$bgColor: white;
+$txtColor: black;
+$txtFont: Arial;
+$txtSize: 90px;
+$txtSize2: 60px; 
+$txtSize3: 40px;
+body {
+    background-color: $bgColor;
+}
+h1 { 
+    font-style: $txtColor;
+    font-family: $txtFont;
+    font-size: $txtSize;
+}
+h2 {
+    font-style: $txtColor;
+    font-family: $txtFont;
+    font-size: $txtSize2;  
+}
+p {
+    font-style: $txtColor;
+    font-family: $txtFont;
+    font-size: $txtSize3; 
+}
