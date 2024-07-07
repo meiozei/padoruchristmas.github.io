@@ -12,6 +12,70 @@ html {
 ::-webkit-scrollbar {
     display: none;
 }
+.countdown-timer {
+    animation: fadeIn 2s ease-in-out;
+    align-items: center;
+    background-color: #131a2b;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .countdown-timer .countainer-ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .countdown-timer-ul {
+    border-radius: 25px;
+    /* color: #000; */
+    background: url(snow\ falling.gif);
+    background-size: 100% auto;
+    margin: auto auto 15px auto;
+    position: relative;
+    text-align: center;
+    transition: opacity 0.7s ease-in-out;
+    position: relative;
+    width: 40%;
+  }
+  .countdown-timer-ul .deadline-label {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-right: 10%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .countdown-timer .date-item {
+    background-color: #fafafa52;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 110px;
+  }
+  .countdown-timer ul {
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+  .countdown-timer ul li span {
+    display: block;
+    font-size: 3rem;
+  }
+  li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 0.5em;
+    text-transform: uppercase;
+  }
+  @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+  }
 
 h1 {
     font-size: 150%;
@@ -37,12 +101,13 @@ p {
 
 footer {
     text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
     font-size: 80%;
     font-family: 'Arial', sans-serif;
 }
 
-.timer {
-    text-align: center;
-    font-size: 180%;
+.countdown-timer {
     font-family: 'Supermercado One', cursive;
+    text-align: center;
 }
